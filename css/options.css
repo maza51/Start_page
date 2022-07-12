@@ -1,0 +1,46 @@
+input[type=file]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+td {
+	background-color: #1C1C1C;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 14px;
+	margin: 0 0 0 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none solid rgb(255, 255, 255);
+	height: 40;
+	width: 300;
+	opacity: 0.8;
+}
+
+td:hover {
+	background-color: #333333;
+}
+
+a {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+.file_upload{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;
+	cursor: pointer;
+}
